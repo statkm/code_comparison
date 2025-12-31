@@ -71,6 +71,8 @@ This project includes two types of benchmarks:
 - Python (NumPy)
 - SAS
 
+![Benchmark v1 Speedup](benchmark_speedup.png)
+
 ### Benchmark v2
 - Python (NumPy)
 - R+Rcpp
@@ -79,6 +81,8 @@ This project includes two types of benchmarks:
 - Rust
 - Go
 - Fortran
+
+![Benchmark v2 Speedup](benchmark_speedup_v2.png)
 
 ## 📄 License
 
