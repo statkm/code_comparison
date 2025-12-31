@@ -1,0 +1,73 @@
+# コンパイル済みバイナリ
+*.exe
+*.out
+mandelbrot_cpp
+mandelbrot_fortran
+mandelbrot_go
+mandelbrot_rust
+
+# Rust/Cargo
+target/
+Cargo.lock
+Cargo.toml
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+*.egg-info/
+src/mandelbrot_py_bitwise.py
+analyze_results_v2.py
+analyze_results.py
+
+# R
+.Rhistory
+.RData
+.Rproj.user
+generate_sas_csv.R
+
+# Julia
+*.jl.cov
+*.jl.*.cov
+*.jl.mem
+
+# ベンチマーク結果
+benchmark_results.json
+benchmark_results_v2.json
+benchmark_report.txt
+benchmark_report_v2.txt
+mandelbrot_*.png
+run_*
+visualize*
+mandelbrot_viz*
+benchmark_relative.png
+
+# CSV出力
+*_data.csv
+
+# SAS出力
+*.log
+*.lst
+
+# Octave/MATLAB
+octave-workspace
+
+# エディタ
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# その他
+*.bak
+*.tmp
+*.pdf
+*.ps1
+debag.ipynb
